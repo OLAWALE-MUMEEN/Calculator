@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="calculator">
+        <section class="display">
+          <!-- 0 -->
+          <p class="answer">0</p>
+        </section>
+        <section class="buttons">
+          <button class="btn clear" data-action="clr">Cl</button>
+          <button class="btn delete" data-action="dlt">Del</button>
+          <button class="btn dot" data-action="decimal">.</button>
+          <button class="btn divide key-operator" data-action="divide">
+            /
+          </button>
+          <button class="btn seven">7</button>
+          <button class="btn eight">8</button>
+          <button class="btn nine">9</button>
+          <button class="btn minus key-operator" data-action="subtract">
+            -
+          </button>
+          <button class="btn four">4</button>
+          <button class="btn five">5</button>
+          <button class="btn six">6</button>
+          <button class="btn plus key-operator" data-action="add">+</button>
+          <button class="btn one">1</button>
+          <button class="btn two">2</button>
+          <button class="btn three">3</button>
+          <button class="btn multiply key-operator" data-action="multiply">
+            &times;
+          </button>
+          <button class="btn hundred">00</button>
+          <button class="btn zero">0</button>
+          <button id="key-equal" class="btn" data-action="calculate">=</button>
+        </section>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
